@@ -2,10 +2,15 @@
   background: #ff0000;
   color: #fff;
   border: none;
+  margin-left: 10px;
   padding: 5px 9px;
   border-radius: 50%;
   cursor: pointer;
   float: pointer;
+  display: flex;
+  align-self: end;
+  position: absolute;
+  right: 10px;
 }
 
 .todo {
@@ -13,8 +18,20 @@
   padding: 10px;
   border-bottom: 1px dotted #ccc;
   min-width: 50px;
+  width: 100vw;
 }
 
 .is-complete {
   text-decoration: line-through;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.checkbox {
+  align-self: center;
+  margin-right: 10px;
 }
